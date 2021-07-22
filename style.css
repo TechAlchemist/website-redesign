@@ -1,0 +1,20 @@
+header {
+  background-color: #222831;
+}
+
+#inner-header {
+  background-color: #222831;
+}
+.main-logo-img {
+  width: 30vh;
+}
+.bi {
+  vertical-align: -.125em;
+  fill: currentColor;
+}
+.text-primary {
+  color: #00ADB5 !important;
+}
+.link {
+  color: #00ADB5;
+}
