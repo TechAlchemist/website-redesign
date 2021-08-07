@@ -8,6 +8,14 @@
       <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
       <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
       <link rel="stylesheet" href="style.css">
+      <!-- jQuery -->
+      <script src="https://code.jquery.com/jquery-3.6.0.slim.min.js"></script>
+      <!-- DATATABLES PLUGIN -->
+      <link rel="stylesheet" type="text/css" href="https://cdn.datatables.net/1.10.25/css/jquery.dataTables.min.css">
+      <script type="text/javascript" charset="utf8" src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+      <script src="https://cdn.datatables.net/1.10.25/js/jquery.dataTables.min.js"></script>
+      <!-- My scripts -->
+      <script type="text/javascript" src="scripts/buildStorage.js"></script>
    </head>
    <body>
       <header>
@@ -18,7 +26,7 @@
             <div class="container">
                <div class="d-flex flex-wrap align-items-center justify-content-center justify-content-lg-start">
                   <a href="/website-redesign/" class="d-flex align-items-center my-2 my-lg-0 me-lg-auto text-white text-decoration-none">
-                  <img class="main-logo-img" src="./assets/pms-logo.gif" alt="porterville mini storage gif logo" srcset="">
+                  <img class="main-logo-img" src="./images/pms-logo.gif" alt="porterville mini storage gif logo" srcset="">
                   </a>
                   <ul class="nav col-12 col-lg-auto my-2 justify-content-center my-md-0 text-small">
                      <li>
@@ -59,4 +67,100 @@
          </div>
       </header>
    </body>
+   <div class="container py-5">
+
+      <table id="storageTable" class="display" style="width:100%">
+         <thead>
+             <tr>
+                 <th>Size</th>
+                 <th>Price</th>
+                 <th>Description</th>
+                 <th>Availability</th>
+             </tr>
+         </thead>
+         <tbody>
+             <tr>
+                 <td>Half of 5x5</td>
+                 <td class="storageTableMoney">20</td>
+                 <td>Can fit hald of a small closet, larger boxes, or bins.</td>
+                 <td class="storageTableAvailability">Available</td>
+             </tr>
+             <tr>
+               <td>5x5</td>
+               <td class="storageTableMoney">27</td>
+               <td>Can fit a small close worth of stuff, larger boxes, or bins.</td>
+               <td class="storageTableAvailability">Available</td>
+           </tr>
+            <tr>
+               <td>6x8</td>
+               <td class="storageTableMoney">45</td>
+               <td>Between 5x5 and 5x10.</td>
+               <td class="storageTableAvailability">Available</td>
+            </tr>
+            <tr>
+               <td>5x10</td>
+               <td class="storageTableMoney">45</td>
+               <td>Can fit furniture of an average bedroom.</td>
+               <td class="storageTableAvailability">Available</td>
+            </tr>
+            <tr>
+               <td>5x15</td>
+               <td class="storageTableMoney">60</td>
+               <td>Can fit furniture of an average bedroom as well as large boxes/bikes.</td>
+               <td class="storageTableAvailability">Available</td>
+            </tr>
+            <tr>
+               <td>10x10</td>
+               <td class="storageTableMoney">70</td>
+               <td>Can fit furniture of a small bedroom apartment, large boxes, and a couch.</td>
+               <td class="storageTableAvailability">Available</td>
+            </tr>
+            <tr>
+               <td>10x15</td>
+               <td class="storageTableMoney">92</td>
+               <td>Can fit furniture of 2 small bedroom apartments, mattresses, boxes, and appliances.</td>
+               <td class="storageTableAvailability">Available</td>
+            </tr>
+            <tr>
+               <td>10x20</td>
+               <td class="storageTableMoney">110</td>
+               <td>Can fit 3 apartment bedrooms or an average sized car, or commercial storage for inventory or equipment.</td>
+               <td class="storageTableAvailability">Available</td>
+            </tr>
+            <tr>
+               <td>10x25</td>
+               <td class="storageTableMoney">157</td>
+               <td>Can fit 4 bedrooms of a house, appliances, or a car, boat, or truck.</td>
+               <td class="storageTableAvailability">Available</td>
+            </tr>
+            <tr>
+               <td>11x30</td>
+               <td class="storageTableMoney">180</td>
+               <td>Can fir 4 bedrooms of a house, mattresses, boxes, appliances, or car, boat, truck.</td>
+               <td class="storageTableAvailability">Available</td>
+            </tr>
+            <tr>
+               <td>20x20</td>
+               <td class="storageTableMoney">200</td>
+               <td>The size of an average 2 car garage. You can fit your entire house in here.</td>
+               <td class="storageTableAvailability">Not Available</td>
+            </tr>
+            <tr>
+               <td>12x30</td>
+               <td class="storageTableMoney">45</td>
+               <td>Parking for boat, RV, Trailer, or recreational vehicles.</td>
+               <td class="storageTableAvailability">Available</td>
+            </tr>
+  
+         </tbody>
+     </table>
+
+   </div>
+
+
+
+
+
+
+
 </html>

@@ -1,3 +1,10 @@
+@import url('https://fonts.googleapis.com/css2?family=Atkinson+Hyperlegible:wght@700&display=swap');
+
+html, body {
+  height: 100%;
+  font-family: 'Atkinson Hyperlegible', sans-serif;
+}
+
 header {
   background-color: #222831;
 }
@@ -17,4 +24,45 @@ header {
 }
 .link {
   color: #00ADB5;
+}
+
+#home-hero {
+  text-align: center;
+  margin-top: 40px;
+  padding-top: 100px;
+  height: 50%;
+  background-image: url('https://images.unsplash.com/photo-1618438502398-195e47778d6c?ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&ixlib=rb-1.2.1&auto=format&fit=crop&w=787&q=80');
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+}
+
+#home-hero-text {
+  color: white;
+
+  text-shadow: 2px 4px black;
+}
+
+#services-container img {
+  /* display: flex; */
+  /* align-content: center; */
+  /* justify-content: er; */
+  width: 200px;
+}
+
+footer i {
+  margin: 50px;
+  padding: 20px;
+  font-size: 3rem;
+}
+
+.col {
+  padding: 10px;
+}
+
+.card {
+  width: 18rem;
+  margin: 10px;
+  border: none;
 }
